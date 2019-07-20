@@ -1,26 +1,22 @@
 package com.company.WebServHW;
 import java.util.*;
 
-public class EightBall {
-    Scanner scan = new Scanner(System.in);
-    private String question = scan.nextLine();
+public class Magic {
     private String answer;
+    private String question;
 
-
-    public EightBall(){
-
-    }
-
-    public EightBall(String question, String answer) {
+    public Magic(String question, String answer) {
         this.question = question;
         this.answer = answer;
+
+
     }
 
-    public EightBall(String answer) {
+    public Magic(String answer) {
         this.answer = answer;
     }
-
     public String getQuestion() {
+
         return question;
     }
 
@@ -35,4 +31,5 @@ public class EightBall {
     public void setAnswer(String answer) {
         this.answer = answer;
     }
+
 }
