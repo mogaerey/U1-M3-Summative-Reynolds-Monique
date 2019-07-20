@@ -20,7 +20,6 @@ public class WordController {
 
         //adding 12 words and definitions..
         this.wordList = new ArrayList<>();
-        int randomWord = (int) (Math.random() * wordList.size());
         this.wordList.add(new Word("xanthopsia", "a visual condition where things appear yellow"));
         this.wordList.add(new Word("urticant", "stinging; irritating"));
         this.wordList.add(new Word("telodynamic", "of, like or pertaining to transmission of power to a distance "));
